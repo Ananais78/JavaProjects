@@ -8,6 +8,6 @@ public class ClientDateCalendrier {
         dateCalendrier1.setChMois(11);
         dateCalendrier1.setChAnnee(2024);
 
-        System.out.println(dateCalendrier1.toString());
+        System.out.println(dateCalendrier1);
     }
 }
