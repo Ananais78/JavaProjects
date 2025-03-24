@@ -13,15 +13,15 @@ public class DateCalendrier extends Date implements ConstantesCalendrier {
         chMois = today.get(Calendar.MONTH);
         chJour = today.get(Calendar.DAY_OF_MONTH);
         chSemaine = today.get(Calendar.WEEK_OF_YEAR);
-
-        int dayOfWeek = today.get(Calendar.DAY_OF_WEEK);
-
-        if (dayOfWeek == 1){
-            dayOfWeek = 7;
-        }
-        else {
-            dayOfWeek = dayOfWeek - 1;
-        }
+//
+//        int dayOfWeek = today.get(Calendar.DAY_OF_WEEK);
+//
+//        if (dayOfWeek == 1){
+//            dayOfWeek = 7;
+//        }
+//        else {
+//            dayOfWeek = dayOfWeek - 1;
+//        }
     }
 
     public void setChJour(int chJour) {this.chJour = chJour;}
